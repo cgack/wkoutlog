@@ -1,0 +1,17 @@
+{
+  "name": "wkoutlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cgack",
+  "license": "MIT",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "react": "^0.13.2",
+    "watchify": "^3.6.1"
+  }
+}
