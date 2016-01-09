@@ -25,10 +25,10 @@ var StoreWorkout = React.createClass({
 		var opts = [];
 		for (var i = 0; i < this._mockWorkouts.length; i++ ) {
 			opts.push(<Option value={this._mockWorkouts[i].name} />);
-		}	
+		}
 		return (
 
-			<div id="logWorkout" class="tabview">
+			<div id="logWorkout" className="tabview">
 				<h2>Record Workout</h2>
 	        	<label htmlFor="chooseWorkout">Workout:</label>
 	        	<select name="" id="chooseWorkout">
@@ -40,7 +40,7 @@ var StoreWorkout = React.createClass({
 	        	<label htmlFor="notes">Notes:</label>
 	        	<textarea id="notes"></textarea>
 	        	<button>Store</button>
-	        </div>	
+	        </div>
 		);
 	}
 });

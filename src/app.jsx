@@ -8,7 +8,11 @@ var App = React.createClass({
 	},
 
 	render: function() {
-		return (<div>{ this.state.signedIn ? <WorkoutLog onLogout={this._onLogout} /> :	<Authentication onAuthComplete={this._onAuthComplete}/> }</div>
+		return (
+			<div>{ this.state.signedIn ?
+					<WorkoutLog onLogout={this._onLogout} /> :
+					<Authentication onAuthComplete={this._onAuthComplete}/> }
+			</div>
 		);
 	},
 

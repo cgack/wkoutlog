@@ -20112,7 +20112,7 @@ var StoreWorkout = React.createClass({
 		}
 		return React.createElement(
 			"div",
-			{ id: "logWorkout", "class": "tabview" },
+			{ id: "logWorkout", className: "tabview" },
 			React.createElement(
 				"h2",
 				null,
